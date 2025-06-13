@@ -5,8 +5,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "storybook": "npx storybook@7.6.20 dev -p 6006",
+    "build-storybook": "npx storybook@7.6.20 build"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -15,6 +15,7 @@
   "devDependencies": {
     "@storybook/addon-essentials": "^7.6.20",
     "@storybook/addon-links": "^7.6.20",
+    "@storybook/cli": "^7.6.20",
     "@storybook/react": "^7.6.20",
     "@storybook/react-vite": "^7.6.20",
     "@types/react": "^18.2.14",
